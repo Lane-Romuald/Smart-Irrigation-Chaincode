@@ -1,11 +1,19 @@
-## Chaincode Hyperledger Fabric pour un Système d'Irrigation IoT
-Ce dépôt contient le code source du chaincode Hyperledger Fabric utilisé dans un système d'irrigation IoT. 
-Le chaincode gère les transactions liées à la collecte de données sur l'humidité du sol, la gestion de l'eau et le suivi des cultures.
+# Chaincode Hyperledger Fabric - IoT Irrigation System
 
-## Fonctionnalités
-- Gestion des données : Collecte et stocke les informations sur l'humidité du sol et les besoins en irrigation.
-- Transactions sécurisées : Assure la confidentialité et l'intégrité des données à l'aide de la technologie blockchain.
-- Interopérabilité : Intègre des capteurs IoT pour une surveillance en temps réel.
-## Prérequis
-- Hyperledger Fabric
-- Environnement de développement Go
+## Description
+This repository contains the source code for a Hyperledger Fabric chaincode used in an IoT-based irrigation system. The chaincode manages the transactions between IoT devices (sensors, actuators) and ensures secure, transparent data management related to irrigation needs and system state.
+
+## Features
+- Manage water distribution to plants based on real-time sensor data (humidity, temperature, etc.)
+- Record irrigation events on the blockchain
+- Enable secure, immutable, and decentralized data handling
+- Monitor system performance and transaction history
+- Support for query and update operations on asset states (e.g., moisture levels)
+
+### Prerequisites
+- Hyperledger Fabric v2.x
+- Docker & Docker-Compose
+- Node.js (for packaging chaincode if written in JavaScript/TypeScript)
+- Fabric CLI tools
+
+
